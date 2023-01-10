@@ -1,8 +1,8 @@
 # editor hc
 # date: 2022/12/29 14:21
 #\+转义功能字母
-print("hello\nworld")
-print("hello\tworld")
+print("hello\nworld")#换行
+print("hello\tworld")#制表
 print("helloooo\tworld")
 #一个制表位占4个字符位置
 
@@ -11,4 +11,4 @@ print("hello\b world")#back，会往前退一个字符位置
 print('http:\\\\www.baidu.com')
 print("老师说:\'hello\'")
 #原意字符，不希望转义字符生效
-print(r'hello\nworld')
+print(r'hello\nworld')#ritual，原始的，原本的
