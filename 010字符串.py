@@ -34,6 +34,23 @@ print(length)
 s4 = 'HELLOWORLD'
 ll=len(s4)
 print(ll)
-print(s4[0:])
-print(s4[-8:-1])
+print(s4[0:])#从头到尾
+print(s4[-10:-1])#从倒数第一个到正数第一个（不包括第一个)
 print(s4[:10])
+
+#字符串类型的操作
+'''x+y 连接字符串x和字符串y
+   x*n 复制n次字符串x
+   x in s 如果x是s的子串，就返回True否则返回False
+   '''
+x='hello minko'
+y='hi minko'
+s='hello minko,hi minko'
+print(x+y)
+print(x*3)
+print(x in s)
+'''结果
+hello minkohi minko
+hello minkohello minkohello minko
+True
+'''
